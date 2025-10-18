@@ -1,0 +1,7 @@
+name = "nail-loyalty-proxy"
+main = "src/nail-loyalty-proxy.js"
+compatibility_date = "2025-10-15"
+
+[build]
+command = ""
+upload_format = "service-worker"
