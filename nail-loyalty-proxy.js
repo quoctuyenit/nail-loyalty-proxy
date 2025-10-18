@@ -31,6 +31,9 @@ export default {
 
     const response = await fetch(targetUrl, init);
     const text = await response.text();
+    
+    // ✅ Log ra URL thực để debug
+    console.log("Forwarding to:", targetUrl);
 
     // Trả kết quả về cho Flutter (kèm CORS header)
     return new Response(text, {
