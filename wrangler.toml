@@ -1,0 +1,3 @@
+name = "nail-loyalty-proxy"
+main = "nail-loyalty-proxy.js"
+compatibility_date = "2025-10-15"
